@@ -7,4 +7,9 @@ class Board
     @width = width
   end
 
+  def squares
+    size = height * width
+    @squares = Array.new(size)
+  end
+
 end
